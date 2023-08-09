@@ -1,0 +1,375 @@
+*
+{
+    margin: 0%;
+}
+body
+{
+    overflow-x: hidden;
+}
+header
+{
+    width: 100%;
+    height: 600px;
+    background-image: url('https://skygarden.london/wp-content/uploads/2023/01/Photogrul-Fenchurch-37-2048px-6-e1679316249455.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    opacity: .8;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 100px;
+    align-items: center;
+}
+.logo
+{
+    width: 130px;
+    margin-top: 20px;
+}
+.listitem
+{
+    display: inline-block;
+    margin: 10px 20px;
+}
+.links
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.links:hover
+{
+    color: red;
+}
+.d2 span
+{
+    color: red;
+    font-size: 25px;
+    font-style: italic;
+}
+.d3
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.d3 h3
+{
+    color: red;
+    font-style: oblique;
+}
+.d3 h1
+{
+    color: white;
+}
+.d3 p
+{
+    color: white;
+    font-size: 20px;
+}
+#home
+{
+  background-color: black;
+}
+.d5 h2
+{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+}
+.d5 p
+{
+   margin-top: 10px;
+   font-size: 20px;
+   color: white;
+   text-align: center;
+   font-style: italic; 
+}
+.d5 h3
+{
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.d5 img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 530px;
+}
+.specials
+{
+    width: 1300px;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+
+}
+.sp
+{
+    width: 250px;
+    height:300px;
+    margin-left: 17px;
+    margin-top: 10px;
+    position: relative;
+    animation: move 5s infinite;
+    animation-direction: alternate;
+}
+@keyframes move
+{
+    0%{left:0px;top:0px}
+    25%{left:50px;top:0px}
+    50%{left:50px;top:50px}
+    75%{left:0px;top:50px}
+    100%{left:0px;top:0px}
+}
+.sp h3
+{
+    color: white;
+    font-style: italic;
+}
+.sp img
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;  
+}
+.d6 h2
+{
+    text-align: center;
+    padding: 40px 0px;
+    color: red;
+}
+#menu
+{
+    background-color: black;
+}
+.d7
+{
+    width: 1300px;
+    height: 430px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+.menu
+{
+    width: 300px;
+    height:400px;
+    margin-left: 17px;
+    margin-top: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 1rem;
+}
+.menu img
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.menu h3
+{
+    text-align: center;
+    color: aqua;
+}
+.menu p
+{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.menu button
+{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    border-radius: 1rem;
+    background-color: green;
+    border-style: solid;
+    border-color: green;
+}
+.more a
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    margin-left: 570px;
+    width: 180px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.d8
+{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+}
+.d8 h2
+{
+    padding: 40px 0px;
+    color: red;
+}
+.d8 p
+{
+    color: white;
+}
+.d9
+{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 1rem;
+    margin-top: 50px;
+    margin-left: 530px;
+    box-shadow: 10px 10px 10px 20px white ;
+}
+.d9
+{
+    color: black;
+    padding: 20px 0px;
+}
+.d10
+{
+    margin-top: 30px;
+    height: 30px;
+}
+.d10 input
+{
+    width: 200px;
+    height: 30px;
+    border-radius: 1rem;
+}
+.d10 button
+{
+    background-color: moccasin;
+    width: 100px;
+    height: 40px;
+    border-radius: 1rem;
+}
+.d11
+{
+    background-color: black;
+    text-align: center;
+}
+.d11 h2
+{ 
+    color: red;
+    padding: 20px 0px;
+}
+.d11 img
+{
+    width: 400px;
+    height: 300px;
+}
+.d11 h3
+{
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+.d11 p
+{
+    color: white;
+}
+.d12 
+{
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px;
+    background-color: black;
+}
+.d12 h2
+{
+    color: red;
+    padding: 40px 0px;
+}
+.contact
+{
+    margin-left: 580px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+}
+.contact span
+{
+    margin-left: 1rem;
+    color: white;
+}
+.contact a
+{
+    color: white;
+}
+.d13 img
+{
+    margin-top: 50px;
+}
+.d13 span
+{
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+}
+.d13 p
+{
+    margin-top: 30px;
+    color: white;
+}
+.d14
+{
+    display: flex;
+    align-items: center;
+    margin: 0px 600px;
+    
+}
+.l
+{
+    border-radius: 50%;
+}
+.l i
+{ 
+  font-size: 30px;
+  color: red;
+  padding: 20px 20px;  
+}
+.l:hover
+{
+    background-color: white;
+}
+footer
+{
+    margin: 3rem 0px;
+}
+.f p
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
